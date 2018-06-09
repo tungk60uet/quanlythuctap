@@ -7,7 +7,9 @@ html {
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
-
+.form-login{
+  color:#3e3e3e;
+}
 hr {
   max-width: 50px;
   border-width: 3px;
