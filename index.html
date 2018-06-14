@@ -121,8 +121,8 @@
             <div class="custom-file">
               <input type="file" class="custom-file-input" id="validatedCustomFile" required>
               <label class="custom-file-label" for="validatedCustomFile">Chọn file...</label>
-<!--               <div class="invalid-feedback">Example invalid custom file feedback</div>
- -->            </div>
+              <!--               <div class="invalid-feedback">Example invalid custom file feedback</div>
+            -->            </div>
           </div>
           
           <!-- Modal footer -->
@@ -141,31 +141,34 @@
       </a>
       <div class="dropdown-menu mega-menu mb-3 keep-open" aria-labelledby="navbarDropdown">
         <div class="row">
-          <div class="col-md-4 bg-light">
+          <div class="col-md-4 bg-light d-flex flex-column">
             <h4 class="text-primary">Thư đến</h4>
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home<span style="font-size:16px;" class="pull-right hidden-xs showopacity">abc</span></a></li>
-              <li><a href="#">Home<span style="font-size:16px;" class="pull-right hidden-xs showopacity">abc</span></a></li>
-              <li><a href="#">Home<span style="font-size:16px;" class="pull-right hidden-xs showopacity">abc</span></a></li>
-              <li><a href="#">Home<span style="font-size:16px;" class="pull-right hidden-xs showopacity">abc</span></a></li>
-              <li><a href="#">Home<span style="font-size:16px;" class="pull-right hidden-xs showopacity">abc</span></a></li>
-              <li><a href="#">Home<span style="font-size:16px;" class="pull-right hidden-xs showopacity">abc</span></a></li>
-              <li><a href="#">Home<span style="font-size:16px;" class="pull-right hidden-xs showopacity">abc</span></a></li>
-              <li><a href="#">Home<span style="font-size:16px;" class="pull-right hidden-xs showopacity">abc</span></a></li>
-              <li><a href="#">Home<span style="font-size:16px;" class="pull-right hidden-xs showopacity">abc</span></a></li>
-              <li><a href="#">Home<span style="font-size:16px;" class="pull-right hidden-xs showopacity">abc</span></a></li>
-              <li><a href="#">Home<span style="font-size:16px;" class="pull-right hidden-xs showopacity">abc</span></a></li>
+              <li class="active"><a href="#">Home<span style="font-size:16px;" class="pull-right hidden-xs showopacity">03/06/2018</span></a></li>
+              <li class="nav-item">
+                <a href="#">Home<span style="font-size:16px;" class="pull-right hidden-xs showopacity">05/07/2018</span></a>
+              </li>
             </ul>
+            <ul class="pagination align-self-center mt-auto">
+              <li class="page-item">
+                <a class="page-link" href="#" tabindex="-1">◄</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">►</a>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-primary mailComposeBtn ">Soạn thư</button>
           </div>
+
           <div class="col-md-8">
             <div class="mail-content d-flex flex-column">
               <div class="d-flex flex-row">
                 <h4 class="text-primary mr-auto">Nội dung</h4>
-                <button type="button" class="btn btn-primary mailComposeBtn">Soạn thư</button>
                 <button type="button" class="btn btn-primary ml-2 mailReplyBtn">Trả lời</button>
               </div>
-              <h6 style="max-height: 35px; overflow: hidden;" class="mt-2"></h6>
-              <p  style=" height:300px;overflow-y: overlay;" class=" border border-left-0 border-right-0 border-secondary"></p>
+              <h6 style="max-height: 35px; overflow: hidden;" class="mt-2">Tiêu đề</h6>
+              <p  style=" height:300px;overflow-y: overlay;" class="">Nội dung</p>
               <p class="mt-auto"><i class="fa fa-paperclip" aria-hidden="true"></i> File đính kèm:</p>
             </div>
             
